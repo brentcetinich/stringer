@@ -4,23 +4,25 @@
 
 html, body {
   height: 100%;
-  color: #484948;
+  color: #2AA198;
 }
 
 body {
-  background-color: #FAF2E5;
+  background-color: #073642;
   overflow-x: hidden;
 }
 
 hr {
   border-bottom: 0px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #586e75;
   width: 100%;
   margin: 20px auto;
 }
 
-code {
+code, pre {
   white-space: normal;
+  background-color: #073642;
+  color: #93A1A1;
 }
 
 .container {
@@ -48,7 +50,7 @@ code {
 }
 
 #frame {
-  border-top: 7px solid #484948;
+  border-top: 7px solid #586e75;
 }
 
 @media (max-width: 768px) {
@@ -85,7 +87,7 @@ code {
 .btn {
   position: relative;
   top: 0px;
-  background-color: #484948;
+  background-color: #678CB1;
   box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -95,15 +97,15 @@ code {
 }
 
 .btn.btn-primary {
-  background-color: #F67100;
+  background-color: #B58900;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
-  background-color: #F59745;
+  background-color: #2AA198;
 }
 
 .btn:hover, .btn:focus, .btn:active {
-  background-color: #7F8281;
+  background-color: #A082BD;
 }
 
 .btn:focus {
@@ -112,7 +114,7 @@ code {
 }
 
 #action-bar i {
-  color: white;
+  color: #002b36;
   line-height: 18px;
 }
 
@@ -139,29 +141,28 @@ ul#story-list, ul#feed-list {
 
 li.story, li.feed {
   margin-bottom: 7px;
-  background-color: white;
   border-radius: 5px;
-  border: 3px solid white;
+  border: 3px solid #586e75;
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
   transform: rotate(0);
-  color: #484948;
+  color: #93A1A1;
 }
 
 li.story .story-body a, .setup a, .footer-links a {
-  color: #F67100;
+  color: #93A1A1;
   text-decoration: none;
-  border-bottom: 1px dotted #F67100;
+  border-bottom: 1px dotted #93A1A1;
 }
 
 li.story .story-body a:hover, .setup a:hover {
-  color: #F59745;
-  border-bottom: 1px dotted #F59745;
+  color: #93A1A1;
+  border-bottom: 1px dotted #93A1A1;
 }
 
 a.btn, a.btn:hover {
   border-bottom: 0px;
-  color: white;
+  color: #002b36;
 }
 
 li.story.read {
@@ -177,7 +178,7 @@ li.story.open {
 }
 
 li.story.open .story-preview {
-  border-bottom: 2px solid #FAF2E5;
+  border-bottom: 2px solid #073642;
 }
 
 .story-preview , .feed-line{
@@ -200,7 +201,7 @@ li.story.open .story-preview {
 }
 
 .story-lead {
-  color: #c5c5c5;
+  color: #586e75;
 }
 
 .story-published {
@@ -227,11 +228,11 @@ li.story.open .story-preview {
 }
 
 li.story .icon-star {
-  color: #F67100;
+  color: #657B83;
 }
 
 li.story .icon-star-empty {
-  color: #e5e5e5;
+  color: #E0E2E4;
 }
 
 .story-body {
@@ -254,16 +255,16 @@ li.story .icon-star-empty {
 
 li.story .story-body h1 a {
   border: none;
-  color: #484948;
+  color: #586e75;
 }
 
 li.story .story-body h1 a:hover {
   border: none;
-  color: #7F8281;
+  color: #7D8C93;
 }
 
 li.story.cursor {
-  border: 3px solid #484948;
+  border: 3px solid #93A1A1;
 }
 
 li.story .story-body-container {
@@ -323,7 +324,7 @@ p.story-details {
 /* end Wordpress hacks */
 
 .story-actions-container {
-  border-top: 2px solid #FAF2E5;
+  border-top: 2px solid #93A1A1;
   height: 28px;
   line-height: 30px;
   clear: both;
@@ -331,16 +332,16 @@ p.story-details {
 
 .story-actions {
   margin-right: 20px;
-  color: #484948;
+  color: #586e75;
 }
 
 .story-actions a {
-  color: #484948;
+  color: #586e75;
   text-decoration: none;
 }
 
 .story-actions a:hover, .story-actions a:focus {
-  color: #7F8281;
+  color: #93A1A1;
 }
 
 li.feed .feed-line {
@@ -353,7 +354,7 @@ li.feed .feed-title {
 }
 
 li.feed .feed-title a {
-  color: #484948;
+  color: #586e75;
   text-decoration: none;
 }
 
@@ -362,7 +363,7 @@ li.feed .feed-unread {
 }
 
 li.feed .feed-title a:hover {
-  color: #7F8281;
+  color: #93A1A1;
 }
 
 li.feed .feed-title-container {
@@ -374,19 +375,19 @@ li.feed .feed-title-container {
 li.feed .status {
   padding: 8px;
   width: 14px;
-  color: #ddd;
+  color: #2aa198;
 }
 
 li.feed .status.green {
-  color: #2ECC71;
+  color: #93A1A1;
 }
 
 li.feed .status.yellow {
-  color: #F1C40F;
+  color: #586e75;
 }
 
 li.feed .status.red {
-  color: #E74C3C;
+  color: #93A1A1;
 }
 
 li.feed .feed-last-updated {
@@ -434,11 +435,11 @@ li.feed .remove-feed a {
   padding-left: 3px;
   padding-right: 3px;
   margin-left: 5px;
-  color: #C0392B;
+  color: #93A1A1;
 }
 
 li.feed .remove-feed a:hover {
-  color: #E74C3C;
+  color: #93A1A1;
 }
 
 #zen {
@@ -459,12 +460,12 @@ li.feed .remove-feed a:hover {
 }
 
 #zen #gtfo {
-  color: #F59745;
+  color: #93A1A1;
   font-weight: bold;
 }
 
 .orange {
-  color: #F67100;
+  color: #93A1A1;
 }
 
 #add-feed-container {
@@ -509,11 +510,11 @@ li.feed .remove-feed a:hover {
 }
 
 .setup .control-group input:focus + .field-icon {
-  color: #484948;
+  color: #586e75;
 }
 
 .setup .control-group input:focus ~ .field-label {
-  color: #484948;
+  color: #586e75;
 }
 
 .setup .field-label {
@@ -636,9 +637,9 @@ li.blank {
 }
 
 #zen a {
-  color: #F59745;
+  color: #93A1A1;
   font-size: 14px;
-  border-bottom: 1px dotted #F59745;
+  border-bottom: 1px dotted #93A1A1;
   text-decoration: none;
 }
 
@@ -651,8 +652,8 @@ li.blank {
 }
 
 #pagination a {
-  color: #F67100;
-  border-bottom: 1px dotted #F59745;
+  color: #93A1A1;
+  border-bottom: 1px dotted #93A1A1;
   text-decoration: none;
   margin: 0 7px;
 }
